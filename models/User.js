@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { ObjectId } = mongoose.Schema;
 
 // Définition d'un schema qui définit les settings de l'utilisateur
-const userSchema = mongoose.schema(
+const userSchema = mongoose.Schema(
     {
         first_name: {
             type: String,
